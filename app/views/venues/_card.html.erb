@@ -12,7 +12,11 @@
 
       <dt>Map address</dt>
       <!-- Display map_address start -->
-      <dd><%= venue.map_address %></dd>
+      <dd>
+        <div>
+          <%= render partial: "venues/one_photo_map" %>
+        </div>
+      </dd>
       <!-- Display map_address end -->
 
       <dt>Neighborhood</dt>
