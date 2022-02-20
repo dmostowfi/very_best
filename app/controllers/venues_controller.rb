@@ -8,6 +8,8 @@ class VenuesController < ApplicationController
 
   # GET /venues/1
   def show
+    @bookmark = Bookmark.new
+    @dish = Dish.new
   end
 
   # GET /venues/new
